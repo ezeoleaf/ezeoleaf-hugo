@@ -10,7 +10,7 @@ theme        = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  homeSubtitle = "Welcome to my personal page"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -33,14 +33,14 @@ theme        = "hello-friend-ng"
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "Eze Olea Figueroa"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "home"
       logoHomeLink = "/"
     # or
     #
@@ -49,6 +49,10 @@ theme        = "hello-friend-ng"
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+  [[menu.main]]
+    identifier = "breads"
+    name       = "Breads"
+    url        = "/breads"
